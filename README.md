@@ -19,7 +19,7 @@
 ## 🛠️ Tecnologías
 
 <p>
-  <img src="https://skillicons.dev/icons?i=angular,ts,html,css,bootstrap,github,vercel,firebase,supabase" />
+  <img src="https://skillicons.dev/icons?i=angular,ts,html,css,bootstrap,github,vercel,supabase" />
 </p>
 
 ---
