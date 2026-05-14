@@ -71,6 +71,6 @@
 
 ## 👨‍💻 Alumno
 
-**Lorenzo Gomez**
+**Lorenzo Gomez Martins**
 
 Programación IV — UTN FRA
