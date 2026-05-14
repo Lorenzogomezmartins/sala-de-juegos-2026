@@ -1,7 +1,6 @@
 # 🎮 Sala de Juegos
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/686/686589.png" width="120">
 </p>
 
 <p align="center">
