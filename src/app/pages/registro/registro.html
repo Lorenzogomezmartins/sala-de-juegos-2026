@@ -1,0 +1,69 @@
+<section class="pantalla-formulario">
+  <div class="form-card">
+    <p class="etiqueta">Nuevo jugador</p>
+    <h1>Registro</h1>
+
+    <form (ngSubmit)="registrarse()">
+      <label for="nombre">Nombre</label>
+      <input
+        id="nombre"
+        name="nombre"
+        type="text"
+        placeholder="Tu nombre"
+        [(ngModel)]="nombre"
+      />
+
+      <label for="apellido">Apellido</label>
+      <input
+        id="apellido"
+        name="apellido"
+        type="text"
+        placeholder="Tu apellido"
+        [(ngModel)]="apellido"
+      />
+
+      <label for="edad">Edad</label>
+      <input
+        id="edad"
+        name="edad"
+        type="number"
+        placeholder="Tu edad"
+        [(ngModel)]="edad"
+      />
+
+      <label for="email">Correo electrónico</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="usuario@email.com"
+        [(ngModel)]="email"
+      />
+
+      <label for="password">Contraseña</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        placeholder="Crear contraseña"
+        [(ngModel)]="password"
+      />
+
+      <button type="submit">
+        Registrarme
+      </button>
+    </form>
+
+    <p class="nota">
+      En Sprint 2 se validará el registro y se guardarán los datos en base de datos.
+    </p>
+  </div>
+</section>
+
+<app-modal
+  [visible]="modalVisible"
+  [titulo]="modalTitulo"
+  [mensaje]="modalMensaje"
+  tipo="info"
+  (cerrar)="cerrarModal()"
+></app-modal>

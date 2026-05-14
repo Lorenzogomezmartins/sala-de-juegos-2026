@@ -1,0 +1,66 @@
+.pantalla-formulario {
+  min-height: 72vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 460px;
+  background: white;
+  color: #0f172a;
+  padding: 34px;
+  border-radius: 22px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.etiqueta {
+  color: #2563eb;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.form-card h1 {
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+input {
+  margin-bottom: 18px;
+  padding: 13px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 13px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nota {
+  margin-top: 18px;
+  color: #64748b;
+  font-size: 0.95rem;
+}

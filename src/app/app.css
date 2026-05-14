@@ -1,0 +1,8 @@
+.contenedor-app {
+  min-height: calc(100vh - 72px);
+  padding: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.22), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(168, 85, 247, 0.2), transparent 30%),
+    linear-gradient(135deg, #020617, #0f172a);
+}

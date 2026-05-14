@@ -1,0 +1,132 @@
+<section class="quien-soy">
+  <div class="encabezado">
+    <p class="etiqueta">Presentación</p>
+
+    <h1>Quién soy</h1>
+
+    <p>
+      Datos obtenidos desde la API pública de GitHub y explicación del juego
+      propio elegido para la Sala de Juegos.
+    </p>
+  </div>
+
+  @if (cargando) {
+    <app-spinner mensaje="Cargando datos de GitHub..."></app-spinner>
+  }
+
+  @if (error) {
+    <div class="error">
+      {{ error }}
+    </div>
+  }
+
+  @if (usuario) {
+    <div class="perfil-card">
+      <img
+        [src]="usuario.avatar_url"
+        [alt]="usuario.name || usuario.login"
+        class="avatar"
+      />
+
+      <div class="datos">
+        <h2>{{ usuario.name || usuario.login }}</h2>
+
+        <p>
+          <strong>Usuario:</strong>
+          {{ usuario.login }}
+        </p>
+
+        <p>
+          <strong>Biografía:</strong>
+
+          {{
+            usuario.bio ||
+              'Técnico Universitario en Programación, enfocado en Python y MongoDB.'
+          }}
+        </p>
+
+        <p>
+          <strong>Ubicación:</strong>
+          {{ usuario.location || 'Argentina' }}
+        </p>
+
+        <div class="estadisticas">
+          <article>
+            <span>{{ usuario.public_repos }}</span>
+            <small>Repositorios</small>
+          </article>
+
+          <article>
+            <span>{{ usuario.followers }}</span>
+            <small>Seguidores</small>
+          </article>
+
+          <article>
+            <span>{{ usuario.following }}</span>
+            <small>Siguiendo</small>
+          </article>
+        </div>
+
+        <a
+          [href]="usuario.html_url"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver perfil en GitHub
+        </a>
+      </div>
+    </div>
+  }
+
+  <div class="juego-propio">
+    <h2>Juego propio elegido</h2>
+
+    <p>
+      Mi juego propio será <strong>Ruleta Casino</strong>, inspirado en las
+      ruletas clásicas utilizadas en casinos.
+    </p>
+
+    <p>
+      El jugador deberá realizar apuestas antes de cada giro e intentar predecir
+      el resultado que aparecerá en la ruleta.
+    </p>
+
+    <h3>Cómo se juega</h3>
+
+    <ul>
+      <li>El jugador inicia la partida con 100 fichas.</li>
+
+      <li>
+        Puede apostar a:
+        <strong>rojo/negro</strong>,
+        <strong>par/impar</strong>
+        o a un
+        <strong>número específico</strong>.
+      </li>
+
+      <li>Luego presiona el botón para girar la ruleta.</li>
+
+      <li>La ruleta genera un número aleatorio entre 0 y 36.</li>
+
+      <li>
+        Si la apuesta coincide con el resultado, el jugador gana fichas.
+      </li>
+
+      <li>Si falla, pierde las fichas apostadas.</li>
+    </ul>
+
+    <h3>Condiciones de finalización</h3>
+
+    <ul>
+      <li>
+        <strong>Victoria:</strong>
+        alcanzar 250 fichas.
+      </li>
+
+      <li>
+        <strong>Derrota:</strong>
+        quedarse sin fichas.
+      </li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<header class="navbar">
+  <a class="marca" routerLink="/">
+    <span class="marca-icono">🎮</span>
+    <span>Sala de Juegos</span>
+  </a>
+
+  <nav class="nav-links">
+    <a
+      routerLink="/"
+      routerLinkActive="activo"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Home
+    </a>
+
+    <a routerLink="/login" routerLinkActive="activo">
+      Login
+    </a>
+
+    <a routerLink="/registro" routerLinkActive="activo">
+      Registro
+    </a>
+
+    <a routerLink="/quien-soy" routerLinkActive="activo">
+      Quién soy
+    </a>
+  </nav>
+</header>

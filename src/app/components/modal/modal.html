@@ -1,0 +1,12 @@
+@if (visible) {
+  <div class="fondo-modal">
+    <div class="modal" [class]="tipo">
+      <h2>{{ titulo }}</h2>
+      <p>{{ mensaje }}</p>
+
+      <button type="button" (click)="cerrarModal()">
+        Entendido
+      </button>
+    </div>
+  </div>
+}
