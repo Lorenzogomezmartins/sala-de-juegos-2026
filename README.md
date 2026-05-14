@@ -1,26 +1,77 @@
-src/app/
-├── core/
-│   ├── models/        # tipos/interfaces: Usuario, Resultado, MensajeChat, etc.
-│   ├── services/      # conexión con Supabase, GitHub, auth, juegos, chat
-│   └── guards/        # más adelante, protección de rutas
-│
-├── layout/
-│   └── navbar/        # navegación general de la app
-│
-├── pages/
-│   ├── home/          # bienvenida
-│   ├── login/         # iniciar sesión
-│   ├── registro/      # registrarse
-│   ├── quien-soy/     # datos GitHub + explicación juego propio
-│   ├── ahorcado/      # Sprint 3
-│   ├── mayor-menor/   # Sprint 3
-│   ├── preguntados/   # Sprint 4
-│   ├── juego-propio/  # Sprint 4
-│   ├── chat/          # Sprint 3
-│   └── resultados/    # Sprint 4
-│
-└── components/
-    ├── boton/         # botón reutilizable
-    ├── spinner/       # carga
-    ├── modal/         # reemplaza alert()
-    └── card/          # tarjetas reutilizables
+# 🎮 Sala de Juegos
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/686/686589.png" width="120">
+</p>
+
+<p align="center">
+  Trabajo Práctico - Programación IV <br>
+  UTN Avellaneda
+</p>
+
+---
+
+## 🚀 Deploy
+
+🔗 https://sala-de-juegos-two.vercel.app/
+
+---
+
+## 🛠️ Tecnologías
+
+<p>
+  <img src="https://skillicons.dev/icons?i=angular,ts,html,css,bootstrap,github,vercel,firebase,supabase" />
+</p>
+
+---
+
+## 📚 Sprint #1
+
+✅ Creación del proyecto  
+✅ Deploy en Vercel  
+✅ Login  
+✅ Registro  
+✅ Home / Bienvenida  
+✅ Página “Quién Soy”  
+✅ Navegación entre pantallas  
+✅ API de GitHub  
+✅ Favicon personalizado  
+
+---
+
+## 🎮 Sprint #2
+
+✅ Home dinámico  
+✅ Login con Supabase  
+✅ Registro completo  
+✅ Guards  
+✅ Login rápido  
+
+---
+
+## 💬 Sprint #3
+
+✅ Juego Ahorcado  
+✅ Juego Mayor o Menor  
+✅ Sala de chat realtime  
+✅ Guardado en base de datos  
+✅ Mensajes en tiempo real  
+
+---
+
+## 🧠 Sprint #4
+
+✅ Preguntados  
+✅ Juego propio  
+✅ Resultados ordenados  
+✅ Estadísticas  
+✅ Animaciones  
+✅ Modales personalizados  
+
+---
+
+## 👨‍💻 Alumno
+
+**Lorenzo Gomez**
+
+Programación IV — UTN FRA
