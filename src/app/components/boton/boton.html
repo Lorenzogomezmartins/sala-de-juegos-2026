@@ -1,0 +1,9 @@
+@if (ruta) {
+  <a [routerLink]="ruta" class="boton" [class]="tipo">
+    {{ texto }}
+  </a>
+} @else {
+  <button class="boton" [class]="tipo" type="button">
+    {{ texto }}
+  </button>
+}
