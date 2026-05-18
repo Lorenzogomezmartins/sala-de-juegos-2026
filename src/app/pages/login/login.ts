@@ -19,7 +19,7 @@ export class Login {
   iniciarSesion(): void {
     this.modalTitulo = 'Sprint 1';
     this.modalMensaje =
-      'El login visual ya está creado. La autenticación con Supabase se implementa en el Sprint 2.';
+      'El login visual.';
     this.modalVisible = true;
   }
 

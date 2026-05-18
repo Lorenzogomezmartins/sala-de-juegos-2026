@@ -22,7 +22,7 @@ export class Registro {
   registrarse(): void {
     this.modalTitulo = 'Sprint 1';
     this.modalMensaje =
-      'El registro visual ya está creado. En Sprint 2 se conectará con Supabase para crear usuarios reales.';
+      'El registro visual ya está creado.';
     this.modalVisible = true;
   }
 
