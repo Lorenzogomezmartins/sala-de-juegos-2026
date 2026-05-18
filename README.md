@@ -38,36 +38,6 @@
 
 ---
 
-## 🎮 Sprint #2
-
-✅ Home dinámico  
-✅ Login con Supabase  
-✅ Registro completo  
-✅ Guards  
-✅ Login rápido  
-
----
-
-## 💬 Sprint #3
-
-✅ Juego Ahorcado  
-✅ Juego Mayor o Menor  
-✅ Sala de chat realtime  
-✅ Guardado en base de datos  
-✅ Mensajes en tiempo real  
-
----
-
-## 🧠 Sprint #4
-
-✅ Preguntados  
-✅ Juego propio  
-✅ Resultados ordenados  
-✅ Estadísticas  
-✅ Animaciones  
-✅ Modales personalizados  
-
----
 
 ## 👨‍💻 Alumno
 
